@@ -6,7 +6,7 @@
 
 
 <!-- Bootstrap -->
-<link rel="stylesheet" href="css/bootstrap.min.css"
+<link rel="stylesheet" href="css/bootstrap.min.css">
 	<title>MENU</title>
 	<meta charset="utf-8">
     <!-- Estilos en css -->
@@ -16,7 +16,41 @@
 </head>
 <body id="body" class="m=0 row justify-content-center text-center">
 
-<nav><h1>Proyecto PP2  | Speed Data</h1></nav>
+<!--<nav><h1>Proyecto PP2  | Speed Data</h1></nav>-->
+
+ 
+<!-- Barra de navegador boostrap-->
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+ <div class="container-fluid">
+  <a class="navbar-brand" href="#"> Speed Data</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+          <a class="nav-link" href="produ.html">Produccion</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="stock.html">stock</a>
+      </li>
+      <li class="nav-item ">
+          <a class="nav-link" href="imp_etiq.html">Etiquetas</a>  
+      <li class="nav-item">
+          <a class="nav-link" href="recetas.html">Recetas</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+
+
+
+
+
+
+
 
         <div id="menu">
                                           <!-- MENU -->
@@ -35,8 +69,12 @@
 
      <!-- Bootstrap -->  
     
-     <footer>
+<!-- Footer acomodor logo falta -->
+<footer>
      &copy; 2022
-</footer>
+     <img src="img/logo.png" width="100"
+       height="80">
+
+ </footer>
 </body>
 </html>
